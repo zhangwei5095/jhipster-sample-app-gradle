@@ -1,20 +1,32 @@
 {
   "generator-jhipster": {
-    "baseName": "jhipster",
-    "packageName": "com.mycompany.myapp",
-    "packageFolder": "com/mycompany/myapp",
+    "baseName": "jhipsterGradleSampleApplication",
+    "packageName": "io.github.jhipster.sample",
+    "packageFolder": "io/github/jhipster/sample",
     "authenticationType": "session",
     "hibernateCache": "ehcache",
-    "clusteredHttpSession": "no",
-    "websocket": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
     "databaseType": "sql",
     "devDatabaseType": "h2Memory",
     "prodDatabaseType": "mysql",
     "useCompass": false,
     "buildTool": "gradle",
-    "frontendBuilder": "grunt",
-    "javaVersion": "8",
     "rememberMeKey": "e48612ba1fd46fa7089fe9f5085d8d164b53ffb2",
-    "searchEngine": "no"
+    "searchEngine": false,
+    "enableTranslation": true,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "languages": [
+      "en"
+    ],
+    "serverPort": 8080,
+    "jhipsterVersion": "3.7.1",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "jhiPrefix": "jhi"
   }
 }
